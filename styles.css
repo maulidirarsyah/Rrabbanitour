@@ -498,45 +498,57 @@
             transform: scale(1.02) rotate(1deg);
         }
 
-        /* Enhanced Floating Buttons */
-        .floating-btn {
-            position: fixed;
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            z-index: 1000;
-            transition: all 0.4s ease;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
+       /* Enhanced Floating Buttons */
+.floating-btn {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
 
-        .whatsapp-btn {
-            bottom: 30px;
-            right: 30px;
-            background: linear-gradient(135deg, #25D366, #128C7E);
-            box-shadow: 0 8px 32px rgba(37, 211, 102, 0.3);
-        }
+.whatsapp-btn {
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    box-shadow: 0 8px 32px rgba(37, 211, 102, 0.3);
+}
 
-        .whatsapp-btn:hover {
-            transform: scale(1.1) rotate(5deg);
-            box-shadow: 0 12px 40px rgba(37, 211, 102, 0.5);
-        }
+.whatsapp-btn:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 12px 40px rgba(37, 211, 102, 0.5);
+}
 
-        .phone-btn {
-            bottom: 120px;
-            right: 30px;
-            background: linear-gradient(135deg, #007bff, #0056b3);
-            box-shadow: 0 8px 32px rgba(0, 123, 255, 0.3);
-        }
+.phone-btn {
+    bottom: 120px;
+    right: 30px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    box-shadow: 0 8px 32px rgba(0, 123, 255, 0.3);
+}
 
-        .phone-btn:hover {
-            transform: scale(1.1) rotate(-5deg);
-            box-shadow: 0 12px 40px rgba(0, 123, 255, 0.5);
-        }
+.phone-btn:hover {
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0 12px 40px rgba(0, 123, 255, 0.5);
+}
+
+.wechat-btn {
+    bottom: 210px; /* Tambahkan posisi ini */
+    right: 30px;   /* Tambahkan posisi ini */
+    background: linear-gradient(135deg, #1aad19, #2dc653);
+    box-shadow: 0 8px 32px rgba(29, 173, 25, 0.3); /* Sesuaikan dengan style lainnya */
+}
+
+.wechat-btn:hover {
+    transform: scale(1.1) rotate(5deg); /* Sesuaikan dengan style lainnya */
+    box-shadow: 0 12px 40px rgba(29, 173, 25, 0.5);
+}
 
         .floating-btn svg {
             width: 32px;
@@ -1870,3 +1882,4 @@ footer .contact-info a[href^="tel:"]:hover,
 footer .contact-info a[href*="wa.me"]:hover {
     color: var(--accent-color) !important;
 }
+
